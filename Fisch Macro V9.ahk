@@ -14,21 +14,21 @@ ExtraRodRecastDelay := 1000
 HoldRodCastDuration := 1000
 
 ; How long to wait for the bobber to land in water
-WaitForBobberDelay := 1000
+WaitForBobberDelay := 500
 
 ;======    Shake Settings    =====================================================================;
 
 ; Change To "Navigation" or "Click"
 NavigationKey := "\"
-AutoEnableCameraMode := true
-ShakeMode := "Click"
+AutoEnableCameraMode := false
+ShakeMode := "auto Click"
 WhiteBarColorTolerance := 15
-FishBarColorTolerance := 4
+FishBarColorTolerance := 5
 
 ; Click Circle Settings
 ClickFailsafeTimer := 20
-WhiteCircleColorTolerance := 4
-ClickDelay := 100
+WhiteCircleColorTolerance := 5
+ClickDelay := 45
 RetryBypassCounter := 10
 
 ; Navigation UI Settings
@@ -42,7 +42,7 @@ DisableMinigameMode := false
 
 ; Range for pixel color, higher = more color detected (higher chance of false positives)
 IncreaseIfCantFindWhiteBar := 15
-IncreaseIfCantFindFishBar := 4
+IncreaseIfCantFindFishBar := 5-
 
 ; Bar Sensitivity Control
 MinimumDifferenceAllowed := 10
@@ -52,7 +52,7 @@ RightDivision := 1.8
 LeftMultiplier := 1
 LeftDivision := 1.1
 AnkleBreakerRightMultiplier := 1.8
-AnkleBreakerLeftMultiplier := 0.5
+AnkleBreakerLeftMultiplier := 1.7
 
 ;=================================================================================================;
 
